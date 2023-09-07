@@ -13,12 +13,12 @@ for i in range (age):
 
 # Ejercicio 3
 
-number = int(input("Ingrese la althra del triangulo: "))
-for i in range(1, number+1, 2):
-    for j in range(i,0,-2):
-        print(j, end=" ")
-    print("")
-
+number = int(input('Ingrese un numero entero positivo: '))
+for i in range(1,number+1,2):
+    if i != number:
+        print(i, end=",")
+    else:
+        print(i)
 
 # Ejercicio 4
 
@@ -61,6 +61,14 @@ for i in range (10):
     for j in range (10):
         print((i+1),"X",(j+1),"=",(i+1)*(j+1))
 
+
+# Ejercicio 8
+
+number = int(input("Ingrese la althra del triangulo: "))
+for i in range(1, number+1, 2):
+    for j in range(i,0,-2):
+        print(j, end=" ")
+    print("")
 
 # Ejercicio 9
 
